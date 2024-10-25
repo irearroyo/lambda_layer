@@ -20,32 +20,6 @@ AWS Lambda layers allow you to package and share common code dependencies across
 - Bash shell
 - AWS CLI (for uploading layers to AWS)
 
-## Project Structure
-
-lambda_layer/
-
-├── build.sh
-
-├── layers/
-
-│ ├── layer1/
-
-│ │ └── requirements.txt
-
-│ ├── layer2/
-
-│ │ └── requirements.txt
-
-│ └── ...
-
-└── packages/
-
-├── layer1.zip
-
-├── layer2.zip
-
-└── ...
-
 
 ## Usage
 
